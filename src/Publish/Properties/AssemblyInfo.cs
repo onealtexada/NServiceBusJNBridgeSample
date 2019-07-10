@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NServiceBusJNBridgeSample")]
+[assembly: AssemblyTitle("Publish")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NServiceBusJNBridgeSample")]
+[assembly: AssemblyProduct("Publish")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("63178632-c415-4d0a-a8fe-d9774c5286e1")]
+[assembly: Guid("0afdade1-5c6b-4593-961d-dbbd22d88c81")]
 
 // Version information for an assembly consists of the following four values:
 //
