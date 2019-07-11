@@ -1,7 +1,6 @@
 ﻿using NServiceBus;
+using Shared;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Publish
@@ -19,6 +18,9 @@ namespace Publish
 
             endpointConfiguration.SendFailedMessagesTo("error");
             endpointConfiguration.EnableInstallers();
+
+            var scanner = endpointConfiguration.AssemblyScanner();
+            scanner.ExcludeAssemblies("JNBJavaEntry2_x64.dll", "JNBShare.dll", "JNBSharedMem_x64.dll");
 
             _endpointConfiguration = endpointConfiguration;
         }

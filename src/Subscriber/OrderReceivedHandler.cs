@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using NServiceBus;
 using NServiceBus.Logging;
+using Shared;
 
 public class OrderReceivedHandler : IHandleMessages<OrderReceived>
 {

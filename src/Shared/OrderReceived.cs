@@ -1,7 +1,10 @@
 ﻿using System;
 using NServiceBus;
 
-public class OrderReceived : IEvent
+namespace Shared
 {
-    public Guid OrderId { get; set; }
+    public class OrderReceived : IEvent
+    {
+        public Guid OrderId { get; set; }
+    }
 }
