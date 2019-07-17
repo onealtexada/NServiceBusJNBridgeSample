@@ -20,7 +20,10 @@ namespace Publish
             endpointConfiguration.EnableInstallers();
 
             var scanner = endpointConfiguration.AssemblyScanner();
-            scanner.ExcludeAssemblies("JNBJavaEntry2_x64.dll", "JNBShare.dll", "JNBSharedMem_x64.dll");
+            scanner.ExcludeAssemblies("Ionic.Zip.dll", "jnbauth_x64.dll", "jnbauth_x86.dll",
+                "JNBJavaEntry_x64.dll", "JNBJavaEntry_x86.dll", "JNBJavaEntry2_x64.dll", "JNBJavaEntry2_x86.dll",
+                "jnbpcommon.dll", "JNBridgePlugin.11.dll", "JNBridgePlugin.dll", "JNBridgePlugin2017.dll", "JNBShare.dll",
+                "JNBSharedMem_x64.dll", "JNBSharedMem_x86.dll", "JNBWPFEmbedding.dll");
 
             _endpointConfiguration = endpointConfiguration;
         }
